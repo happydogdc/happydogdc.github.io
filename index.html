@@ -180,7 +180,7 @@
                         Oops! Something went wrong. Please refresh the screen and try again.
                     </div>
                     <div class="contact-form">
-                        <form id="contact-form" class="margin-clear" role="form" data-rel="back"
+                        <form id="contact-form" class="margin-clear" role="form" onsubmit="myFunction()"
                               method="POST" action="http://formspree.io/happydognatick@gmail.com">
                             <div class="form-group has-feedback">
                                 <label for="name">Name*</label>
@@ -266,6 +266,12 @@
     <script type="text/javascript" src="js/modernizr.js"></script>
     <script type="text/javascript" src="js/jquery.validate.js"></script>
     <script type="text/javascript" src="js/template.js"></script>
+
+    <script>
+        function myFunction() {
+             location.href = 'http://www.happydogdc.net';
+        }
+    </script>
 </body>
 
 </html>
